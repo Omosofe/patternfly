@@ -8,8 +8,13 @@
 *.swn
 *.swo
 
+# Ignore local Bower packages
+components/
+bower_components/
+
 # Ignore local nodejs packages
 node_modules/
+npm-debug.log
 
 # Ignore node files
 *.man
@@ -19,4 +24,9 @@ npm.cmd
 
 # Ignore generated files
 patternfly.spec
-build
+
+# Ignore Desktop Services Store
+.DS_Store
+
+#Ignore generated dist files
+/dist
